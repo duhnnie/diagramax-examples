@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script src="./dist/main.js"></script>
+    </head>
+    <body>
+      <div id="controls">
+        <label>
+          Select Shape:
+          <select id="shape-selector">
+            <option value="Circle">Circle</option>
+            <option value="Rectangle">Rectangle</option>
+            <option value="Triangle">Triangle</option>
+            <option value="Ellipse">Ellipse</option>
+          </select>
+        </label>
+        <button id="add">Add</button>
+        <button id="undo" disabled>Undo</button>
+        <button id="redo" disabled>Redo</button>
+        <button id="data">Show JSON</button>
+        <div>For start a connection start a drag from any shape while ALT key is pressed.</div>
+      </div>
+      <div id="diagram"></div>
+    </body>
+</html>

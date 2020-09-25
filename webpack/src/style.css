@@ -1,0 +1,18 @@
+/* These are custom styles */
+.diagramax.canvas tspan {
+  fill: #7a7a7a;
+}
+
+.diagramax.shape .main-element {
+  fill: #F5FDFF;
+  stroke: #ABD0D8;
+  stroke-width: 3;
+}
+
+.diagramax.connection .path {
+  stroke: #888888;
+}
+
+.diagramax.connection .arrow {
+  fill: #888888;
+}

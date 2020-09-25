@@ -1,0 +1,20 @@
+{
+  "name": "diagramax-browserify-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browserify src/main.js -o public/bundle.js && cp node_modules/diagramax/*.css public/ && node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.5.2"
+  },
+  "dependencies": {
+    "diagramax": "^0.1.0",
+    "express": "^4.17.1"
+  }
+}
